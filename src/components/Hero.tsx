@@ -61,7 +61,7 @@ const Hero = () => {
                 onClick={scrollToContact}
               >
                 <Mail className="h-5 w-5" />
-                Contact Meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Contact <Me></Me>
               </Button>
             </div>
           </div>
