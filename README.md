@@ -32,4 +32,5 @@ This website showcases my professional experience, skills, education, and projec
 
 ---
 
-
+npm install
+npm run dev
