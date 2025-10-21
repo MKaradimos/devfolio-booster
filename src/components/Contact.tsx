@@ -99,7 +99,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <p className="text-center text-muted-foreground mt-12">© 2025</p>
+      <p className="text-center text-muted-foreground mt-12"></p>
     </section>
   );
 };
