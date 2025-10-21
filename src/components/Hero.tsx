@@ -11,10 +11,12 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center pt-16 bg-background">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center pt-16 bg-background"
+    >
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          
           {/* --- Left Content --- */}
           <div className="flex-1 space-y-6 fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground">
@@ -29,12 +31,11 @@ const Hero = () => {
 
             {/* --- Buttons --- */}
             <div className="flex flex-wrap gap-4 pt-4">
-              
               {/* Download CV */}
               <Button size="lg" className="gap-2" asChild>
                 <a
-                  href="/Michail Karadimos - Software Engineer.pdf"
-                  download="Michail Karadimos - Software Engineer.pdf"
+                  href="/MichailKaradimos_CV.pdf"
+                  download="MichailKaradimos_CV.pdf"
                 >
                   <Download className="h-5 w-5" />
                   Download CV
@@ -44,7 +45,7 @@ const Hero = () => {
               {/* View CV */}
               <Button size="lg" variant="secondary" className="gap-2" asChild>
                 <a
-                  href="/Michail Karadimos - Software Engineer.pdf"
+                  href="/MichailKaradimos_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -77,7 +78,6 @@ const Hero = () => {
               />
             </div>
           </div>
-
         </div>
       </div>
     </section>
